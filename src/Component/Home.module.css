@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: end;
+    width: 375px;
+    background-color: #F7F8F9;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+}
+.welcome>h1{
+    color: #1D2226;
+    font-size: 28px;
+    height: 33px;
+    width: 100%;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    line-height: 17px;
+}
+.welcome>p{
+   font-weight: 400;
+   font-family: 'Rubik', sans-serif;
+   color: #1D2226;
+   opacity: 60%;
+   height: 48px;
+   width: 100%;
+   font-size: 18px;
+   line-height: 26px;
+   margin-bottom: 29px;
+}
+.welcome>.createbox{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    opacity: 1;
+    height: 46px;
+    width: 335px;
+    border-radius: 6px;
+    opacity: 1;
+    cursor: pointer;
+    background-color: #6C25FF;
+}
+.welcome>.register{
+    text-align: center;
+    color: #1D2226;
+    opacity: 1; 
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: #6C25FF4B;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    height: 46px;
+    width: 335px;
+}
+.signin{
+    height: 100vh;
+    width: 375px;
+    background-color: #F7F8F9;
+    padding: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    display: flex;
+    flex-direction: column;
+}
+.create{
+    height: 100vh;
+    width: 375px;
+    background-color: #F7F8F9;
+    padding: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.profile{
+    height: 100vh;
+    width: 375px;
+    background-color: #F7F8F9;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    display: flex;
+    flex-direction: column;
+}
+.profile>.account{
+    height: 68px;
+    width: 100%;
+    padding: 20px;
+    font-weight: 500;
+    box-shadow: 0px 3px 6px #00000007;
+    background-color: #FFFFFF;
+    font-family:'Rubik', sans-serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.profile>.box{
+  height: 250px;
+  width: 100%;
+  padding: 20px;
+  border-bottom: 2px dashed #CBCBCB;
+}
+.profile>.box>.pic{
+    height: 76px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    position: relative;
+}
+.profile>.box>.pic>img{
+    height: 76px;
+    width: 76px;
+    
+}
+.profile>.box>.pic>#cam{
+    height: 23px;
+    width: 23px;
+    position: absolute;
+    top: 45px;
+    left: 60px;
+}
+.profile .bottom{
+    position: absolute;
+    bottom: 0;
+    height: 36px;
+    width: 375px;
+    border-top: 2px dashed #CBCBCB;
+}
+.profile>.box>.pic h2{
+    height: 18px;
+    margin-left: 20px;
+    width: 100px;
+    font-size: 15px;
+    font-family:'Rubik', sans-serif;
+    line-height: 19px;
+}
+.profile>.box>.pic h3{
+    height:17px;
+    width: 118px;
+    font-size: 14px;
+    font-family:'Rubik', sans-serif;
+    margin-left: 20px;
+    line-height: 19px;
+    font-weight:400;
+    margin-top: 6px;
+}
+.profile>.box> p{
+    line-height: 22px;
+    margin-top: 30px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family:'Rubik', sans-serif;
+    color: #1D2226;
+    height: 63px;
+    width: 337px;
+
+}
+.create>.box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.create>.box>h1{
+    color: #1D2226;
+    font-size: 28px;
+    font-family:'Rubik', sans-serif;
+    line-height: 36px;
+    height: 69px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.create>.box>h3{
+    height:15px;
+    width: 125px;
+    font-size: 13px;
+    font-family:'Rubik', sans-serif;
+    color: #1D2226;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.create>.box>.radio{
+    height:43px;
+    width: 132px;
+    font-size: 14px;
+    display: flex;
+    font-family:'Rubik', sans-serif;
+    font-weight: 500;
+    align-items: center;
+    justify-content: space-between;
+}
+.create>button{
+    height: 46px;
+    width: 335px;
+    border-radius: 6px;
+    font-family:'Rubik', sans-serif;
+    border: none;
+    outline: none;
+    background-color: #6C25FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.create>.box>.radio>input{
+    height: 22px;
+    width: 22px;
+}
+.create>.box>span{
+    height:17px;
+    z-index: 10;
+    width:100px;
+    font-size:12px;
+    line-height: 17px;
+    font-weight: 450;
+    padding-left: 3px;
+    margin-bottom: -8px;
+    margin-top: 10px;
+    color: #6C25FF;
+    margin-left: 8px;
+    background-color: #F7F8F9;
+    font-family: 'Rubik', sans-serif;
+}
+
+sup{
+    font-size: 13px;
+    position: absolute;
+    color: #DD4A3D;
+}
+.create>.box>input{
+    z-index: 0;
+    height: 40px;
+    width: 335px;
+    border-radius: 6px;
+    background-color: transparent;
+    padding: 12px 17px;
+    outline: none;
+    border: 1.5px solid #CBCBCB;
+}
+.signin>h1{
+    font-family: 'Rubik', sans-serif;
+    height: 69px;
+    width: 100%;
+    font-size: 28px;
+    font-weight: 500;
+    color: #1D2226;
+    margin-top: 30px;
+    opacity: 1;
+}
+.signin>p{
+    font-family: 'Rubik', sans-serif;
+    height: 48px;
+    width: 100%;
+    color: #1D2226;
+    opacity: 60%;
+    margin-top: 14px;
+    font-size: 18px;
+    margin-bottom: 33px;
+    line-height: 26px;
+}
+.signin>span{
+    height: 17px;
+    width: 103px;
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 17px;
+    font-weight: 500;
+    color: #6C25FF;
+    margin-bottom: -10px;
+    background-color: #F7F8F9;
+    z-index: 1;
+    padding-left: 3px;
+    margin-left: 10px;
+}
+.signin>input{
+    height:40px;
+    width: 335px;
+    outline: none;
+    margin-bottom: 23px;
+    z-index: 0;
+    border-radius: 6px;
+    font-family: 'Rubik', sans-serif;
+    padding: 12px 15px;
+    background-color: transparent;
+    border: 1.5px solid #CBCBCB;
+}
+.signin>input::placeholder{
+    color: #919191;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 500px;
+}
+.signin>button{
+    height:46px;
+    width: 335px;
+    border-radius: 6px;
+    background-color: #CBCBCB;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
